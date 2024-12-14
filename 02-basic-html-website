@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="simple HTML only website with multiple pages from roadmap.sh">
+    <meta name="keywords" content="HTML, Roadmap, Frontend Projects">
+    <title>Basic HTML Website homepage</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Aisha Isack</div>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Article</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Junior Frontend Developer</h1>
+            <p>
+                I build websites!
+            </p>
+        </section>
+
+        <section class="Projects">
+            <h4>Projects</h4>
+                <p>HTML Only Portfolio</p>
+                <p>Calculator</p>
+                <p>Quiz App</p>
+                <p>Countdown Timer</p>
+                <p>Product Upcoming Page</p>
+        </section>
+
+        <section class="Work-Experience">
+            <article>
+                <h4>Work Experience</h4>
+            <p>
+                <strong>roadmap.sh</strong>
+            </p>
+            <p>Solved all the front end projects</p>
+            <p>
+                <a href="https://roadmap.sh/u/aisharohne" target="_blank">Visit My Profile</a>
+            </p>
+            </article>
+
+            <article>
+                <h4>OpenSource Work</h4>
+                <p>Contributed to 50 opensource projets. Made my own projects with 200 Github Stars</p>
+                <p>
+                    <a href="http://github.com/aisharohne" target="_blank">Visit my Github Profile</a>
+                </p>
+            </article>
+        </section>
+
+        <section class="Education">
+            <h4>Education</h4>
+            <p>
+                Completed a course in:
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artifical Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discreet Mathematics</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="reviews">
+            <h4>Reviews from my Teachers</h4>
+            <blockquote>
+                    Aisha was a brilliant student; always stood out with his assignents.
+                    <footer> Jane Doe <br>
+                        Assistant Professor
+                    </footer>
+            </blockquote>
+
+            <blockquote>
+                Aisha was a brilliant student; always stood out with his assignents.
+                <footer> Jane Doe <br>
+                    Assistant Professor
+                </footer>
+            </blockquote> 
+
+
+            <blockquote>
+                Aisha was a brilliant student; always stood out with his assignents.
+                <footer> Jane Doe <br>
+                    Assistant Professor
+                </footer>
+            </blockquote> 
+        </section>
+    </main>
+</body>
+</html>
